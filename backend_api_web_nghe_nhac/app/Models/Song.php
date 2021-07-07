@@ -13,6 +13,10 @@ class Song extends Model
         'description',
         'filename',
         'image',
-        'music'
+        'musician',
+        'singer_id',
+        'user_id',
+        'genre',
+        'album'
     ];
 }
